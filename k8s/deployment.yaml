@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: pravinchopy/gitops-demo
+          image: pravinchopy/gitops-demo:v1
           ports:
             - containerPort: 80
